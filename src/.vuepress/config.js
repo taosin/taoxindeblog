@@ -11,7 +11,7 @@ module.exports = {
         lang: 'zh-CN',
       },
     },
-  
+    dest: 'docs',
     // 使用的主题
     theme: 'meteorlxy',
   
