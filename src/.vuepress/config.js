@@ -14,6 +14,10 @@ module.exports = {
     dest: 'docs',
     // 使用的主题
     theme: 'meteorlxy',
+
+    serviceWorker: true,
+
+    base: '/',
   
     // 主题配置
     themeConfig: {
@@ -51,7 +55,7 @@ module.exports = {
   
         // 头像
         // 设置为外部链接
-        avatar: 'https://www.meteorlxy.cn/assets/img/avatar.jpg',
+        avatar: 'http://images.iamtaoxin.com/luffy.jpg',
         // 或者放置在 .vuepress/public 文件夹，例如 .vuepress/public/img/avatar.jpg
         // avatar: '/img/avatar.jpg',
         
@@ -71,10 +75,10 @@ module.exports = {
         // header 的背景，可以使用图片，或者随机变化的图案（geopattern）
         background: {
           // 使用图片的 URL，如果设置了图片 URL，则不会生成随机变化的图案，下面的 useGeo 将失效
-        //   url: '/assets/img/bg.jpg',
+          url: ['http://images.iamtaoxin.com/274359_9c031368213436a4703565e0edb8f.jpg','http://images.iamtaoxin.com/1469696430979.jpg']
   
           // 使用随机变化的图案，如果设置为 false，且没有设置图片 URL，将显示为空白背景
-          useGeo: true,
+        //   useGeo: true,
         },
   
         // 是否在 header 显示标题
@@ -94,8 +98,8 @@ module.exports = {
   
       // 评论配置，参考下方 [页面评论] 章节
       comments: {
-        owner: 'meteorlxy',
-        repo: 'vuepress-theme-meteorlxy',
+        owner: 'taosin',
+        repo: 'taoxindeblog',
         clientId: 'MY_CLIENT_ID',
         clientSecret: 'MY_CLIENT_SECRET',
       },
