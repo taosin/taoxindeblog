@@ -1,7 +1,7 @@
 module.exports = {
     // 网站 Title
     title: '风中的Nix_____',
-    base: process.env.NODE_ENV !== 'production' ? '/' : 'https://taosin.github.io/taoxindeblog/',
+    base: process.env.NODE_ENV !== 'development' ? 'https://taosin.github.io/taoxindeblog/': '/',
     // 网站描述
     description: 'Nix_____- A Web Developer',
   
