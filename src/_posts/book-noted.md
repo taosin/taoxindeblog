@@ -5,6 +5,7 @@ category: 个人提升
 tags:
   - 2019
   - 阅读书籍
+vssue-title: 2019-book-noted
 ---
 > 书单：[2019书单]
 

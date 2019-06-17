@@ -5,6 +5,7 @@ tags:
     - Nix在奔跑
     - 运动健身
 category: 个人提升
+vssue-title: yangpu-marathon
 ---
 
 其实我也算是个比较热爱跑步的人吧，线上的比赛也参加了不少，从一开始的 `5KM` 到 后来的 `10KM` 或者 `20KM`，无聊的时候也会去操场刷刷圈。
