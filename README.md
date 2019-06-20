@@ -11,6 +11,7 @@
 * 使用 VuePress 生成的静态博客，但可以用 `*.Vue` 来开发自定义页面模板
 * 基于 Issue、Vue 驱动的评论插件 **[Vssue](https://vssue.js.org/zh/)** 
 * 支持过个代码托管平台，包括 **GitHub, GitLab, Bitbucket 和 Gitee**。本博客是托管在 `Coding` 上。
+* 主题则是采用了 [meteorlxy](https://www.meteorlxy.cn/) 开发的 `vuepress-theme-meteorlxy`(https://vuepress-theme-meteorlxy.meteorlxy.cn/)
 
 ### 为什么使用博客？
 

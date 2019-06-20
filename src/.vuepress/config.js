@@ -18,7 +18,7 @@ module.exports = {
   themeConfig: {
     // 主题语言，参考下方 [主题语言] 章节
     lang: {
-      home: '首页',
+      home: 'Home',
       posts: '文章',
       category: '分类',
       categories: '分类',
@@ -70,10 +70,10 @@ module.exports = {
       // header 的背景，可以使用图片，或者随机变化的图案（geopattern）
       background: {
         // 使用图片的 URL，如果设置了图片 URL，则不会生成随机变化的图案，下面的 useGeo 将失效
-        url: ['http://images.iamtaoxin.com/274359_9c031368213436a4703565e0edb8f.jpg', 'http://images.iamtaoxin.com/1469696430979.jpg']
+        // url: ['http://images.iamtaoxin.com/274359_9c031368213436a4703565e0edb8f.jpg', 'http://images.iamtaoxin.com/1469696430979.jpg']
 
       // 使用随机变化的图案，如果设置为 false，且没有设置图片 URL，将显示为空白背景
-      //   useGeo: true,
+        useGeo: true,
       },
 
       // 是否在 header 显示标题
@@ -85,9 +85,9 @@ module.exports = {
 
     // 顶部导航栏内容
     nav: [
-      { text: '首页', link: '/', exact: true },
-      { text: '博文', link: '/posts/', exact: false },
-      { text: '关于', link: '/about/', exact: false },
+      { text: 'Home', link: '/', exact: true },
+      { text: 'Posts', link: '/posts/', exact: false },
+      { text: 'About', link: '/about/', exact: false },
       { text: 'Github', link: 'https://github.com/taosin', exact: false }
     ],
 
