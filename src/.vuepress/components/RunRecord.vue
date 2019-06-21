@@ -37,6 +37,12 @@ export default {
           speed: "5分 45秒 37毫秒"
         },
         {
+          date: "19-6-16",
+          time: "39分 36秒",
+          distance: "5.02",
+          speed: "5分 45秒 37毫秒"
+        },
+        {
           date: "19-6-13",
           time: "29分 18秒",
           distance: "5.01",
