@@ -88,6 +88,7 @@ module.exports = {
       { text: 'Home', link: '/', exact: true },
       { text: 'Posts', link: '/posts/', exact: false },
       { text: 'About', link: '/about/', exact: false },
+      { text: 'Run', link: '/run/', exact: false },
       { text: 'Github', link: 'https://github.com/taosin', exact: false }
     ],
 
