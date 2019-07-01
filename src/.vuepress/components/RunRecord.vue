@@ -25,6 +25,12 @@ export default {
       ],
       datas: [
         {
+          date: "19-6-27",
+          time: "29分 23秒",
+          distance: "5.03",
+          speed: "5分 52秒 390毫秒"
+        },
+        {
           date: "19-6-24",
           time: "28分 20秒",
           distance: "5.03",
