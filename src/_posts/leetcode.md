@@ -11,4 +11,4 @@ vssue-title: leetcode
 |题目|地址|
 |--|--|
 |1.两数之和|[LeetCode 解题之路(一) 两数之和](https://www.yuque.com/taoxin/bdo7n8/onpksp) |
-|1.两数之和|[LeetCode 解题之路(二) 两数相加](https://www.yuque.com/taoxin/bdo7n8/vhdn21) |
+|2.两数相加|[LeetCode 解题之路(二) 两数相加](https://www.yuque.com/taoxin/bdo7n8/vhdn21) |
