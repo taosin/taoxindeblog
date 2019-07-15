@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vuepress dev src",
     "build": "vuepress build src --dest dist",
-    "deploy": "sh deploy.sh"
+    "deploy": "sh deploy.sh",
+    "new": "sh create-post.sh"
   },
   "author": "",
   "license": "ISC",
