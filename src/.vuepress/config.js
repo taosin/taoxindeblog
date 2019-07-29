@@ -50,7 +50,7 @@ module.exports = {
 
       // 头像
       // 设置为外部链接
-      avatar: 'http://images.iamtaoxin.com/luffy.jpg',
+      avatar: 'http://images.iamtaoxin.com/IMG_1096.PNG',
       // 或者放置在 .vuepress/public 文件夹，例如 .vuepress/public/img/avatar.jpg
       // avatar: '/img/avatar.jpg',
 

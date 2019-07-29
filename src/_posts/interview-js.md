@@ -2,7 +2,7 @@
 title: 前端JS面试必须知道的几个点
 date: 2018-05-17
 tags: 
-    - JavaScript
+    - javaScript
     - 前端面试
 
 category: 关于技术
