@@ -380,7 +380,7 @@ export default {
       speed = speed / parseFloat(distance);
       speed_minutes = Math.floor(speed);
       speed_seconds = Math.floor((speed - speed_minutes) * 60.0);
-      return [speed_minutes, speed_seconds];
+      return `${speed_minutes}' ${speed_seconds}''`; 
     }
   }
 };

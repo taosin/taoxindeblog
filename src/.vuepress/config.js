@@ -17,19 +17,6 @@ module.exports = {
   // 主题配置
   themeConfig: {
     // 主题语言，参考下方 [主题语言] 章节
-    lang: {
-      home: 'Home',
-      posts: '文章',
-      category: '分类',
-      categories: '分类',
-      allCategories: '全部',
-      tag: '标签',
-      tags: '标签',
-      createdAt: '发布时间',
-      updatedAt: '最后修改',
-      prevPost: '上一篇',
-      nextPost: '下一篇'
-    },
 
     // 个人信息（没有或不想设置的，删掉对应字段即可）
     personalInfo: {
