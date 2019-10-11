@@ -1,14 +1,15 @@
 ---
 title: 当我有了一台云服务器
 date: 2019-10-11
-category: 
+category: 关于技术
 tags: 
-	- 
+	- 环境配置
 vssue-title: set-a-new-server
 ---
 
 当我有了一台云服务器之后，嘿嘿，就开始了下面的一系列操作。。。
 
+![](http://images.iamtaoxin.com/2019-10-11-9ae2d0134699f9b5a56a78ba5f3d03e7.jpg)
 
 ### 一、安装 Node.js
 
