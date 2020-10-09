@@ -1,103 +1,63 @@
 module.exports = {
-  // 网站 Title
-  title: '风中的Nix_____',
-  description: 'A Web Developer',
-
-  // 网站语言
-  locales: {
-    '/': {
-      lang: 'zh-CN'
-    }
-  },
-  // 使用的主题
-  theme: 'meteorlxy',
-
-  serviceWorker: true,
-
-  // 主题配置
+  title: "码途",
+  description: "Stay Hungry, Stay Foolish!",
+  head: [
+    ["link", { rel: "icon", href: "/favicon.ico" }],
+    ["meta", { name: "viewport", content: "width=device-width,initial-scale=1,user-scalable=no" }],
+  ],
+  theme: "reco",
   themeConfig: {
-    // 主题语言，参考下方 [主题语言] 章节
-
-    // 个人信息（没有或不想设置的，删掉对应字段即可）
-    personalInfo: {
-      // 昵称
-      nickname: 'Nix_____',
-
-      // 个人简介
-      description: 'Stay Hungry<br/>Stay Foolish',
-
-      // 电子邮箱
-      email: 'taoxin167@gmail.com',
-
-      // 所在地
-      location: 'ShangHai City, China',
-
-      // 组织
-      // organization: 'Xi\'an Jiao Tong University',
-
-      // 头像
-      // 设置为外部链接
-      avatar: 'http://images.iamtaoxin.com/IMG_1096.PNG',
-      // 或者放置在 .vuepress/public 文件夹，例如 .vuepress/public/img/avatar.jpg
-      // avatar: '/img/avatar.jpg',
-
-
-      // 社交平台帐号信息
-      sns: {
-        // Github 帐号和链接
-        github: {
-          account: 'meteorlxy',
-          link: 'https://github.com/taosin'
-        }
-      }
-    },
-
-    // 上方 header 的相关设置
-    header: {
-      // header 的背景，可以使用图片，或者随机变化的图案（geopattern）
-      background: {
-        // 使用图片的 URL，如果设置了图片 URL，则不会生成随机变化的图案，下面的 useGeo 将失效
-        // url: ['http://images.iamtaoxin.com/274359_9c031368213436a4703565e0edb8f.jpg', 'http://images.iamtaoxin.com/1469696430979.jpg']
-
-      // 使用随机变化的图案，如果设置为 false，且没有设置图片 URL，将显示为空白背景
-        useGeo: true,
-      },
-
-      // 是否在 header 显示标题
-      showTitle: true
-    },
-
-    // 是否显示文章的最近更新时间
-    lastUpdated: true,
-
-    // 顶部导航栏内容
     nav: [
-      { text: 'Home', link: '/', exact: true },
-      { text: 'Posts', link: '/posts/', exact: false },
-      { text: 'About', link: '/about/', exact: false },
-      { text: 'Run', link: '/run/', exact: false },
-      { text: 'Github', link: 'https://github.com/taosin', exact: false }
+      { text: "首页", link: "/", icon: "reco-home" },
+      { text: "时光机", link: "/timeline/", icon: "reco-date" },
+      { text: "关于", link: "/about/", icon: "reco-other" }, 
+      {
+        text: "联系",
+        icon: "reco-message",
+        items: [
+          { text: "Github", icon: "reco-message", link: "https://github.com/taosin" },
+          { text: "简书", icon: "reco-jianshu", link: "https://www.jianshu.com/u/39ca4625960a" },
+          { text: "思否", icon: "reco-sf", link: "https://segmentfault.com/u/coderhusbandman" },
+          { text: "知乎", icon: "reco-zhihu", link: "https://www.zhihu.com/people/iamtaoxin" },
+          { text: "邮箱", icon: "reco-mail", link: "http://taoxin167@gmail.com" },
+        ],
+      },
     ],
-
-    // 评论配置，参考下方 [页面评论] 章节
-    comments: {
-      owner: 'taosin',
-      repo: 'taoxindeblog',
-      clientId: '00abe1fd337c3b50c026',
-      clientSecret: 'c94c275f254abef59d8adfb1b48b89adad016e43'
+    type: "blog",
+    // 博客设置
+    blogConfig: {
+      category: {
+        location: 2, // 在导航栏菜单中所占的位置，默认2
+        text: "分类", // 默认 “分类”
+      },
+      tag: {
+        location: 3, // 在导航栏菜单中所占的位置，默认3
+        text: "标签", // 默认 “标签”
+      },
     },
-
-    // 分页配置
-    pagination: {
-      perPage: 10
+    authorAvatar: "http://images.iamtaoxin.com/IMG_1096.PNG",
+    // 搜索设置
+    search: true,
+    searchMaxSuggestions: 10,
+    // 自动形成侧边导航
+    subSidebar: "auto",
+    sidebarDepth: 100000,
+    // 最后更新时间
+    lastUpdated: "Last Updated",
+    // 作者
+    author: "码徒",
+    // 项目开始时间
+    startYear: "2016",
+    /**
+     * 密钥 (if your blog is private)
+     */
+    friendLink: [],
+    vssueConfig: {
+      platform: "github",
+      owner: "OWNER_OF_REPO",
+      repo: "NAME_OF_REPO",
+      clientId: "YOUR_CLIENT_ID",
+      clientSecret: "YOUR_CLIENT_SECRET",
     },
-
-    // 默认页面（可选，默认全为 true）
-    defaultPages: {
-      // 是否允许主题自动添加 Home 页面 (url: /)
-      home: true,
-      // 是否允许主题自动添加 Posts 页面 (url: /posts/)
-      posts: true
-    }
-  }
-}
+  },
+};
